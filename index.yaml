@@ -3,7 +3,7 @@ entries:
   vault-operator:
   - apiVersion: v1
     appVersion: 0.1.9
-    created: "2023-10-22T15:56:16.237856826Z"
+    created: "2023-10-22T15:58:09.496138946Z"
     dependencies:
     - condition: etcd-operator.enabled
       name: etcd-operator
@@ -18,12 +18,12 @@ entries:
     sources:
     - https://github.com/coreos/vault-operator
     urls:
-    - vault-operator-0.1.4.tgz
+    - https://manasrb23.github.io/helmrepo/vault-operator-0.1.4.tgz
     version: 0.1.4
   velero:
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2023-10-22T15:56:16.239025907Z"
+    created: "2023-10-22T15:58:09.497596428Z"
     deprecated: true
     description: A Helm chart for velero
     digest: 34d7ccac1cfb5ed02b11bf9fbc1e86077ccab090cc35093bdc3d456ab02109c4
@@ -33,6 +33,6 @@ entries:
     sources:
     - https://github.com/vmware-tanzu/velero
     urls:
-    - velero-2.7.4.tgz
+    - https://manasrb23.github.io/helmrepo/velero-2.7.4.tgz
     version: 2.7.4
-generated: "2023-10-22T15:56:16.233776552Z"
+generated: "2023-10-22T15:58:09.493791124Z"
